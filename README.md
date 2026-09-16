@@ -32,14 +32,6 @@ Reason: 32 hexadecimal characters
 * Hash Format Analysis
 * Cybersecurity Fundamentals
 
-## Project Structure
-
-```text
-hash-identifier/
-├── hash_identifier.py
-├── tests/
-└── README.md
-```
 
 ## Purpose
 
