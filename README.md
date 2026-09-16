@@ -86,24 +86,4 @@ just run -- <h> # identify a hash
 
 No compilers, no system libraries, no network access required. The project is one Python file plus tests.
 
-## Learn
 
-This project includes step-by-step learning materials covering security theory, architecture, and implementation — written for someone who has never touched Python before.
-
-| Module | Topic |
-|--------|-------|
-| [00 - Overview](learn/00-OVERVIEW.md) | Quick start, prerequisites, common problems |
-| [01 - Concepts](learn/01-CONCEPTS.md) | What hashes are, real-world breaches, the three identification signals |
-| [02 - Architecture](learn/02-ARCHITECTURE.md) | Three-layer architecture, six-step decision pipeline, data-driven design |
-| [03 - Implementation](learn/03-IMPLEMENTATION.md) | Line-by-line walkthrough — every Python feature explained when first encountered |
-| [04 - Challenges](learn/04-CHALLENGES.md) | Five tiers of extension ideas, from adding a prefix rule to building an ML classifier |
-
-## See Also
-
-- [`PROJECTS/beginner/hash-cracker`](../../beginner/hash-cracker) — the natural sibling. Once this tool tells you *what* a hash is, that one teaches you how to crack it.
-- [`PROJECTS/foundations/http-headers-scanner`](../http-headers-scanner) — another foundations-tier Python project, slightly more involved I/O.
-- [`PROJECTS/foundations/password-manager`](../password-manager) — the hardest foundations-tier project; covers Argon2id, AES-GCM, and on-disk vaults.
-
-## License
-
-AGPL 3.0
